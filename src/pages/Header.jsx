@@ -17,7 +17,7 @@ class MainHeader extends Component {
 							Github
 						</a>
 						<a href="#">Discord</a>
-						<Link to="/guide">Guide</Link>
+						<Link to="/guide-starthere">Guide</Link>
 						<Link to="/test">Test</Link>
 					</ul>
 				</div>

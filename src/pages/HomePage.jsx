@@ -4,7 +4,7 @@ import "../stylesheets/App.css";
 
 function HomePage() {
 	return (
-		<div>
+		<div className="home-page-main">
 			<div className="App-header-main">Discord js docs!</div>
 			<h1>More coming soon!</h1>
 			<a
@@ -15,7 +15,7 @@ function HomePage() {
 				Source Code
 			</a>
 			<p>
-				<Link to="/404Exmaple" className="Button">
+				<Link to="/discordjs-guide/404Exmaple" className="Button">
 					Invalid Router test.
 				</Link>
 			</p>

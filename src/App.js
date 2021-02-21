@@ -7,6 +7,7 @@ import Header from "./pages/Header";
 import HomePage from "./pages/HomePage";
 import NotFound404Error from "./pages/NotFound404Error";
 import TestPage from "./misc/TestPage";
+import IntroductionPage from "./pages/componets/introduction/introPage";
 
 //? Dep imports
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -25,6 +26,9 @@ function App() {
 								{/* Using "/discordjs-guide" as root */}
 								<Route exact path="/">
 									<HomePage />
+								</Route>
+								<Route exact path="/guide-starthere">
+									<IntroductionPage />
 								</Route>
 								<Route exact path="/test">
 									<TestPage />

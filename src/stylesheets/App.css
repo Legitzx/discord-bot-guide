@@ -34,10 +34,16 @@
 	color: #61dafb;
 }
 
+.home-page-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .Header-link {
 	/* This controls the header fuctions. */
-	background-color: #8e43a5;
-	color: #ffffff;
+	background-color: #ffffff;
+	color: #000000;
 	display: flex;
 	justify-content: space-between;
 	padding-left: 45px;
@@ -59,7 +65,7 @@
 }
 
 .nav-link a {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 	display: block;
 	transition: all 0.3 ease-out;

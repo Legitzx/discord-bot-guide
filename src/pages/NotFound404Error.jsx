@@ -7,7 +7,7 @@ export default function NotFound404() {
 			<h1>Sorry I can't find this page. You may have the wrong URL.</h1>
 			<p>
 				Please use {/* Using "/discordjs-guide" as root */}
-				<Link className="Button" to="/discordjs-guide">
+				<Link className="Button" to="/">
 					This link
 				</Link>{" "}
 				to return the the home page.
