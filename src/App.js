@@ -19,7 +19,7 @@ function App() {
 						<Header />
 						<div>
 							<Switch>
-								<Route exact path="/">
+								<Route exact path="/discordjs-guide">
 									<HomePage />
 								</Route>
 								<Route path="*">
