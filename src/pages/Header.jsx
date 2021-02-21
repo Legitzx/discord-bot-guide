@@ -7,16 +7,16 @@ class MainHeader extends Component {
 			<div>
 				<div class="Header-link">
 					<h1>
-						<Link to="/" className="link">
+						<Link to="/discordjs-guide" className="link">
 							Discordjs Home
 						</Link>
 					</h1>
-
+					{/* Using "/discordjs-guide" as root */}
 					<ul class="nav-link">
-						<Link to="/">Github</Link>
-						<Link to="/">Discord</Link>
-						<Link to="/">Guide</Link>
-						<Link to="/">Test</Link>
+						<Link to="/discordjs-guide">Github</Link>
+						<Link to="/discordjs-guide">Discord</Link>
+						<Link to="/discordjs-guide">Guide</Link>
+						<Link to="/discordjs-guide">Test</Link>
 					</ul>
 				</div>
 			</div>
