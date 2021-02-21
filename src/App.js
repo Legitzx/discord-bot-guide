@@ -9,36 +9,39 @@ import NotFound404Error from "./pages/NotFound404Error";
 import TestPage from "./misc/TestPage";
 
 //? Dep imports
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+	BrowserRouter as Router,
+	Route,
+	Switch,
+	useRouteMatch,
+} from "react-router-dom";
 
 //? React Build
 
-function App() {
+async function App() {
 	return (
-		<Router>
-			<div className="App">
-				<div className="router-rap-class">
-					<div className="page-skeleton">
-						<Header />
-						<div>
-							<Switch>
-								{/* Using "/discordjs-guide" as root */}
-								<Route exact path="/">
-									<HomePage />
-								</Route>
-								<Route exact path="/test">
-									<TestPage />
-								</Route>
-								<Route exact path="*">
-									<NotFound404Error />
-								</Route>
-							</Switch>
+		<div>
+			<Router>
+				<div className="App">
+					<div className="router-rap-class">
+						<div className="page-skeleton">
+							<Header />
+							<div>
+								<Switch>
+									{/* Using "/discordjs-guide" as root */}
+									<Route exact path="/" component={HomePage}></Route>
+									<Route exact path="/test" component={TestPage}></Route>
+									<Route exact path="*">
+										<NotFound404Error />
+									</Route>
+								</Switch>
+							</div>
+							<Footer />
 						</div>
-						<Footer />
 					</div>
 				</div>
-			</div>
-		</Router>
+			</Router>
+		</div>
 	);
 }
 
