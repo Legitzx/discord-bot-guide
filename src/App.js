@@ -6,6 +6,9 @@ import Footer from "./pages/Footer";
 import Header from "./pages/Header";
 import HomePage from "./pages/HomePage";
 import NotFound404Error from "./pages/NotFound404Error";
+import TestPage from "./misc/TestPage";
+
+//? Dep imports
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //? React Build
@@ -20,8 +23,11 @@ function App() {
 						<div>
 							<Switch>
 								{/* Using "/discordjs-guide" as root */}
-								<Route exact path="/discordjs-guide">
+								<Route exact path="/">
 									<HomePage />
+								</Route>
+								<Route exact path="/test">
+									<TestPage />
 								</Route>
 								<Route exact path="*">
 									<NotFound404Error />

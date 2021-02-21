@@ -15,7 +15,7 @@ function HomePage() {
 				Source Code
 			</a>
 			<p>
-				<Link to="/404" className="Button">
+				<Link to="/404Exmaple" className="Button">
 					Invalid Router test.
 				</Link>
 			</p>
