@@ -1,0 +1,35 @@
+.Header-link {
+	/* This controls the header fuctions. */
+	background-color: #8e43a5;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding: 0 45px;
+	flex-wrap: wrap;
+}
+/* Contols the header buttons. */
+.nav-link {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: calc(13px + 1vmin);
+	/* Word spacing */
+	text-indent: 15px;
+}
+
+.nav-link a {
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	transition: all 0.3 ease-out;
+}
+
+.nav-link a:hover {
+	color: rgb(92, 179, 230);
+	transform: rotate(6deg);
+}
