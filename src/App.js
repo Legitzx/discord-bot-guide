@@ -22,7 +22,7 @@ function App() {
 								<Route exact path="/discordjs-guide">
 									<HomePage />
 								</Route>
-								<Route path="*">
+								<Route exact path="*">
 									<NotFound404Error />
 								</Route>
 							</Switch>
