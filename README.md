@@ -1,4 +1,4 @@
-# `Offical DeepWebDeveloper's guide @discordjs`
+# Offical `DeepWebDeveloper's` guide @discordjs Bot Building
 
 ~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~~
 
