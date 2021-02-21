@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/discordjs-guide/static/css/main.f86ec378.chunk.css",
-    "main.js": "/discordjs-guide/static/js/main.f60bec90.chunk.js",
-    "main.js.map": "/discordjs-guide/static/js/main.f60bec90.chunk.js.map",
+    "main.js": "/discordjs-guide/static/js/main.1b07855d.chunk.js",
+    "main.js.map": "/discordjs-guide/static/js/main.1b07855d.chunk.js.map",
     "runtime-main.js": "/discordjs-guide/static/js/runtime-main.a74b1d62.js",
     "runtime-main.js.map": "/discordjs-guide/static/js/runtime-main.a74b1d62.js.map",
     "static/js/2.223e3b7c.chunk.js": "/discordjs-guide/static/js/2.223e3b7c.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a74b1d62.js",
     "static/js/2.223e3b7c.chunk.js",
     "static/css/main.f86ec378.chunk.css",
-    "static/js/main.f60bec90.chunk.js"
+    "static/js/main.1b07855d.chunk.js"
   ]
 }
