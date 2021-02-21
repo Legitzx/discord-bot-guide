@@ -13,9 +13,11 @@ class MainHeader extends Component {
 					</h1>
 					{/* Using "/discordjs-guide" as root */}
 					<ul class="nav-link">
-						<Link to="/">Github</Link>
-						<Link to="/">Discord</Link>
-						<Link to="/">Guide</Link>
+						<a href="https://github.com/DeepWebDevelopers/discordjs-guide">
+							Github
+						</a>
+						<a href="#">Discord</a>
+						<Link to="/guide">Guide</Link>
 						<Link to="/test">Test</Link>
 					</ul>
 				</div>
