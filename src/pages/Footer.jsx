@@ -6,7 +6,15 @@ class MainFooter extends Component {
 		return (
 			<div>
 				<div class="footer-link">
-					<p>&copy; ThatGuyJamal</p>
+					<p>
+						&copy;
+						<a
+							href="https://github.com/DeepWebDevelopers"
+							className="basic-link"
+						>
+							DeepWebDevelopers
+						</a>
+					</p>
 				</div>
 			</div>
 		);

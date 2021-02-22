@@ -4,7 +4,7 @@ import "./stylesheets/App.css";
 //? Page Imports
 import Footer from "./pages/Footer";
 import Header from "./pages/Header";
-import HomePage from "./pages/HomePage";
+import LandingPage from "./pages/LandingPage";
 import NotFound404Error from "./pages/NotFound404Error";
 import TestPage from "./misc/TestPage";
 import IntroductionPage from "./pages/componets/introduction/introPage";
@@ -24,18 +24,20 @@ function App() {
 						<div>
 							<Switch>
 								{/* Using "/discordjs-guide" as root */}
-								<Route exact path="/">
-									<HomePage />
-								</Route>
-								<Route exact path="/guide-starthere">
-									<IntroductionPage />
-								</Route>
-								<Route exact path="/test">
-									<TestPage />
-								</Route>
-								<Route exact path="*">
-									<NotFound404Error />
-								</Route>
+								<Route exact path="/" exact component={LandingPage}></Route>
+								<Route
+									exact
+									path="/introduction"
+									exact
+									component={IntroductionPage}
+								></Route>
+								<Route exact path="/test" exact component={TestPage}></Route>
+								<Route
+									exact
+									path="*"
+									exact
+									component={NotFound404Error}
+								></Route>
 							</Switch>
 						</div>
 						<Footer />

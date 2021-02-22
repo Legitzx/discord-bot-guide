@@ -1,3 +1,8 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
 .App {
 	text-align: center;
 }
@@ -19,7 +24,7 @@
 }
 
 .App-header-main {
-	background-color: #282c34;
+	background-color: #ffffff;
 	min-height: 10vh;
 	/* margin: 0px; */
 	display: flex;
@@ -27,7 +32,7 @@
 	align-items: center;
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
-	color: white;
+	color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -40,38 +45,6 @@
 	justify-content: center;
 }
 
-.Header-link {
-	/* This controls the header fuctions. */
-	background-color: #ffffff;
-	color: #000000;
-	display: flex;
-	justify-content: space-between;
-	padding-left: 45px;
-	padding-right: 45px;
-	padding: 0 45px;
-	flex-wrap: wrap;
-}
-/* Contols the header buttons. */
-.nav-link {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-size: calc(13px + 1vmin);
-	/* Word spacing */
-	text-indent: 15px;
-}
-
-.nav-link a {
-	color: #000000;
-	text-decoration: none;
-	display: block;
-	transition: all 0.3 ease-out;
-}
-
-.nav-link a:hover {
-	color: rgb(92, 179, 230);
-	transform: rotate(6deg);
+.basic-link {
+	color: blue;
 }
