@@ -3,18 +3,20 @@ import { Link, withRouter } from "react-router-dom";
 import "../stylesheets/comp/header.css";
 
 class MainHeader extends Component {
-	// constructor() {
-	// 	this.handleClickHome = this.handleClickHome.bind(this);
-	// 	this.handleClickGuide = this.handleClickGuide.bind(this);
-	// }
+	constructor(props) {
+		super(props);
 
-	// handleClickHome = async () => {
-	// 	this.props.history.push("/discordjs-guide");
-	// };
+		// this.handleClickHome = this.handleClickHome.bind(this);
+		// this.handleClickGuide = this.handleClickGuide.bind(this);
 
-	// handleClickGuide = async () => {
-	// 	this.props.history.push("/discordjs-guide/introduction-start");
-	// };
+		this.handleClickHome = async () => {
+			this.props.history.push("/discordjs-guide");
+		};
+
+		this.handleClickGuide = async () => {
+			this.props.history.push("/discordjs-guide/introduction-start");
+		};
+	}
 
 	render() {
 		return (
