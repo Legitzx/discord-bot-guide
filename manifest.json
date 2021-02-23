@@ -1,25 +1,17 @@
 {
 	"short_name": "Discirdjs",
-	"name": "Create React App Sample",
+	"name": "DeebWebDeveloper's Discordjs Guide",
+	"description": "A guide deticated to bring you information on the discord js framework",
 	"icons": [
 		{
-			"src": "favicon.ico",
+			"src": "/favicon.ico",
 			"sizes": "64x64 32x32 24x24 16x16",
 			"type": "image/x-icon"
-		},
-		{
-			"src": "logo192.png",
-			"type": "image/png",
-			"sizes": "192x192"
-		},
-		{
-			"src": "logo512.png",
-			"type": "image/png",
-			"sizes": "512x512"
 		}
 	],
-	"start_url": ".",
+	"start_url": "https://deepwebdevelopers.github.io/discordjs-guide/#/",
 	"display": "standalone",
+	"scope": "/",
 	"theme_color": "#000000",
 	"background_color": "#ffffff"
 }
