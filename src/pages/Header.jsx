@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
 import "../stylesheets/comp/header.css";
-import "../stylesheets/App.css";
 
 class MainHeader extends Component {
 	// constructor() {

@@ -40,7 +40,7 @@ p {
 
 .App-header-main {
 	background-image: url(https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/source.gif);
-	min-height: 10vh;
+	min-height: 16vh;
 	/* margin: 0px; */
 	display: flex;
 	flex-direction: column;

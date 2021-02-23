@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 0 45px;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 /* Contols the header buttons. */
 .nav-link {
@@ -21,6 +21,8 @@
 }
 
 .nav-link a {
+	position: relative;
+	bottom: 50px;
 	color: #ecb2b2;
 	text-decoration: none;
 	/* display: block; */
@@ -33,5 +35,8 @@
 }
 
 .landing-page-button {
+	position: relative;
+	left: 195px;
+	bottom: 50px;
 	color: rgb(255, 228, 78);
 }
