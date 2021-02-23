@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/discordjs-guide/static/css/main.6bae6940.chunk.css",
-    "main.js": "/discordjs-guide/static/js/main.8ef6fc1c.chunk.js",
-    "main.js.map": "/discordjs-guide/static/js/main.8ef6fc1c.chunk.js.map",
+    "main.js": "/discordjs-guide/static/js/main.11bf62d8.chunk.js",
+    "main.js.map": "/discordjs-guide/static/js/main.11bf62d8.chunk.js.map",
     "runtime-main.js": "/discordjs-guide/static/js/runtime-main.a74b1d62.js",
     "runtime-main.js.map": "/discordjs-guide/static/js/runtime-main.a74b1d62.js.map",
-    "static/js/2.06dd63c7.chunk.js": "/discordjs-guide/static/js/2.06dd63c7.chunk.js",
-    "static/js/2.06dd63c7.chunk.js.map": "/discordjs-guide/static/js/2.06dd63c7.chunk.js.map",
+    "static/js/2.ca302693.chunk.js": "/discordjs-guide/static/js/2.ca302693.chunk.js",
+    "static/js/2.ca302693.chunk.js.map": "/discordjs-guide/static/js/2.ca302693.chunk.js.map",
     "index.html": "/discordjs-guide/index.html",
     "static/css/main.6bae6940.chunk.css.map": "/discordjs-guide/static/css/main.6bae6940.chunk.css.map",
-    "static/js/2.06dd63c7.chunk.js.LICENSE.txt": "/discordjs-guide/static/js/2.06dd63c7.chunk.js.LICENSE.txt",
+    "static/js/2.ca302693.chunk.js.LICENSE.txt": "/discordjs-guide/static/js/2.ca302693.chunk.js.LICENSE.txt",
     "static/media/DiscordjsNoob.76017666.md": "/discordjs-guide/static/media/DiscordjsNoob.76017666.md",
     "static/media/App.css": "/discordjs-guide/static/media/logo.2781e843.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a74b1d62.js",
-    "static/js/2.06dd63c7.chunk.js",
+    "static/js/2.ca302693.chunk.js",
     "static/css/main.6bae6940.chunk.css",
-    "static/js/main.8ef6fc1c.chunk.js"
+    "static/js/main.11bf62d8.chunk.js"
   ]
 }
