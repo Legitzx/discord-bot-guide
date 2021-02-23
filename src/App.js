@@ -1,9 +1,12 @@
 //? Css imports
 import "./stylesheets/App.css";
 
-//? Page Imports
+//? import deps
 import Footer from "./pages/Footer";
 import Header from "./pages/Header";
+import SideBar from "./components/js/SideBar";
+
+//? Page Imports
 import LandingPage from "./pages/LandingPage";
 import NotFound404Error from "./pages/NotFound404Error";
 import TestPage from "./misc/TestPage";
@@ -18,31 +21,33 @@ function App() {
 	return (
 		<Router>
 			<div className="App">
+				<SideBar /> <Header />
 				<div className="router-rap-class">
 					<div className="page-skeleton">
-						<Header />
 						<div>
 							<Switch>
 								{/* Using "/discordjs-guide" as root */}
-								<Route exact path="/" exact component={LandingPage}></Route>
+								<Route
+									path="/discordjs-guide"
+									exact
+									component={LandingPage}
+								></Route>
 								<Route
 									exact
-									path="/introduction"
-									exact
+									path="/discordjs-guide/introduction-start"
 									component={IntroductionPage}
 								></Route>
-								<Route exact path="/test" exact component={TestPage}></Route>
 								<Route
 									exact
-									path="*"
-									exact
-									component={NotFound404Error}
+									path="/discordjs-guide/test"
+									component={TestPage}
 								></Route>
+								<Route exact path="*" component={NotFound404Error}></Route>
 							</Switch>
 						</div>
-						<Footer />
 					</div>
 				</div>
+				<Footer />
 			</div>
 		</Router>
 	);

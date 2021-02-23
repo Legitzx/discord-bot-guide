@@ -1,0 +1,17 @@
+.footer-build {
+	background-color: #3b3b3b;
+	margin: 100;
+	display: flex;
+	flex-direction: column;
+	/* bottom: 0; */
+	display: flex;
+	grid-row: 2;
+	height: 100px;
+	position: absolute;
+	width: 100%;
+}
+
+.basic-link {
+	text-align: center;
+	align-items: center;
+}

@@ -1,19 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
 	margin: 0;
 	padding: 0;
 }
+h1 {
+	color: rgb(255, 118, 118);
+}
+
+p {
+	color: antiquewhite;
+}
 
 .App {
 	text-align: center;
-}
-
-.App-logo {
-	height: 40vmin;
-	pointer-events: none;
+	background-color: #3b3b3b;
 }
 
 .App-header {
-	background-color: #282c34;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -23,28 +29,29 @@ body {
 	color: white;
 }
 
+.home-page-main {
+	/* display: flex; */
+	flex-direction: column;
+	justify-content: center;
+	background-color: #3b3b3b;
+	position: relative;
+	min-height: 75vh;
+}
+
 .App-header-main {
-	background-color: #ffffff;
+	background-image: url(https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/source.gif);
 	min-height: 10vh;
 	/* margin: 0px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: rgb(0, 0, 0);
-}
-
-.App-link {
-	color: #61dafb;
-}
-
-.home-page-main {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 }
 
 .basic-link {
-	color: blue;
+	color: rgb(92, 131, 190);
+}
+
+.Logo {
+	margin: 15px;
+	background-image: url(./img/logo.png);
 }

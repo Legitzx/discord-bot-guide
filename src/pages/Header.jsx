@@ -1,14 +1,31 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import "../stylesheets/comp/header.css";
+import "../stylesheets/App.css";
 
 class MainHeader extends Component {
+	// constructor() {
+	// 	this.handleClickHome = this.handleClickHome.bind(this);
+	// 	this.handleClickGuide = this.handleClickGuide.bind(this);
+	// }
+
+	// handleClickHome = async () => {
+	// 	this.props.history.push("/discordjs-guide");
+	// };
+
+	// handleClickGuide = async () => {
+	// 	this.props.history.push("/discordjs-guide/introduction-start");
+	// };
+
 	render() {
 		return (
 			<div>
 				<div class="Header-link">
 					<h1>
-						<Link to="/" className="landing-page-button">
+						<Link
+							onClick={this.handleClickHome}
+							className="landing-page-button"
+						>
 							Discordjs
 						</Link>
 					</h1>
@@ -20,9 +37,9 @@ class MainHeader extends Component {
 						>
 							Github
 						</a>
-						<a href="#">Discord</a>
-						<Link to="/guide-starthere">Guide</Link>
-						<Link to="/test">Test</Link>
+						<a href="">Discord</a>
+						<Link onClick={this.handleClickGuide}>Guide</Link>
+						<Link to="/discordjs-guide/test">Test</Link>
 					</ul>
 				</div>
 			</div>
@@ -30,4 +47,4 @@ class MainHeader extends Component {
 	}
 }
 
-export default MainHeader;
+export default withRouter(MainHeader);

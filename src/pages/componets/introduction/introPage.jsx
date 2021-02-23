@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown";
 
 export default function introPage() {
 	return (
-		<div>
+		<div className="home-page-main">
 			<h1>Rendering Markdown?</h1>
 			<ReactMarkdown source={DiscordNoobMD} />
 		</div>

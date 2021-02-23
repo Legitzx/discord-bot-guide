@@ -1,5 +1,10 @@
 import React from "react";
+import "../stylesheets/App.css";
 
 export default function Test() {
-	return <div>Sending from test.jsx file.</div>;
+	return (
+		<div className="home-page-main">
+			<p>Sending from test.jsx file.</p>
+		</div>
+	);
 }
