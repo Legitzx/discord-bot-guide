@@ -1,6 +1,7 @@
 {
 	"short_name": "Discirdjs",
-	"name": "Discordjs Guide",
+	"name": "DeebWebDeveloper's Discordjs Guide",
+	"description": "A guide deticated to bring you information on the discord js framework",
 	"icons": [
 		{
 			"src": "/favicon.ico",
