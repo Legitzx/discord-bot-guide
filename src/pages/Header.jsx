@@ -10,11 +10,11 @@ class MainHeader extends Component {
 		// this.handleClickGuide = this.handleClickGuide.bind(this);
 
 		this.handleClickHome = async () => {
-			this.props.history.push("/discordjs-guide");
+			this.props.history.push("/");
 		};
 
 		this.handleClickGuide = async () => {
-			this.props.history.push("/discordjs-guide/introduction-start");
+			this.props.history.push("/introduction-start");
 		};
 	}
 
@@ -40,7 +40,7 @@ class MainHeader extends Component {
 						</a>
 						<a href="">Discord</a>
 						<Link onClick={this.handleClickGuide}>Guide</Link>
-						<Link to="/discordjs-guide/test">Test</Link>
+						<Link to="/test">Test</Link>
 					</ul>
 				</div>
 			</div>

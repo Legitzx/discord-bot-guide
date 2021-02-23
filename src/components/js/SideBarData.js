@@ -8,7 +8,7 @@ import * as GoIcon from "react-icons/go";
 export const SidebarData = [
 	{
 		title: "Introduction",
-		path: "/discordjs-guide/introduction-start",
+		path: "/introduction-start",
 		icon: <AiIcons.AiFillHome />,
 		iconClosed: <RiIcons.RiArrowDownSFill />,
 		iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -16,7 +16,7 @@ export const SidebarData = [
 		subNav: [
 			{
 				title: "Getting Started",
-				path: "/discordjs-guide",
+				path: "/",
 				icon: <IoIcons.IoIosPaper />,
 			},
 			{

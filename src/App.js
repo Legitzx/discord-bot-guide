@@ -13,7 +13,10 @@ import TestPage from "./misc/TestPage";
 import IntroductionPage from "./pages/componets/introduction/introPage";
 
 //? Dep imports
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// If using github pages then you need HashRouter not Brower
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+// Not needed anymore
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //? React Build
 
@@ -27,21 +30,13 @@ function App() {
 						<div>
 							<Switch>
 								{/* Using "/discordjs-guide" as root */}
-								<Route
-									path="/discordjs-guide"
-									exact
-									component={LandingPage}
-								></Route>
+								<Route path="/" exact component={LandingPage}></Route>
 								<Route
 									exact
-									path="/discordjs-guide/introduction-start"
+									path="/introduction-start"
 									component={IntroductionPage}
 								></Route>
-								<Route
-									exact
-									path="/discordjs-guide/test"
-									component={TestPage}
-								></Route>
+								<Route exact path="/test" component={TestPage}></Route>
 								<Route exact path="*" component={NotFound404Error}></Route>
 							</Switch>
 						</div>
