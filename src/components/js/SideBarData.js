@@ -27,7 +27,7 @@ export const SidebarData = [
 		],
 	},
 	{
-		title: "name0",
+		title: "Creating your bot",
 		path: "/",
 		icon: <IoIcons.IoIosPaper />,
 		iconClosed: <RiIcons.RiArrowDownSFill />,

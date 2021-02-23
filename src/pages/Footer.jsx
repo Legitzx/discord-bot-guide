@@ -6,7 +6,7 @@ class MainFooter extends Component {
 		return (
 			<div>
 				<div class="footer-build">
-					<p>
+					<p className="basic-link-branding">
 						&copy;
 						<a
 							href="https://github.com/DeepWebDevelopers"

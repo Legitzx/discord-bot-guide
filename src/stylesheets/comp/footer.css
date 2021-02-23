@@ -9,9 +9,18 @@
 	height: 100px;
 	position: absolute;
 	width: 100%;
+	min-height: 15vh;
 }
 
 .basic-link {
 	text-align: center;
 	align-items: center;
+}
+
+.basic-link-branding {
+	text-align: center;
+	align-items: center;
+	color: rgb(92, 131, 190);
+	position: relative;
+	top: 100px;
 }
