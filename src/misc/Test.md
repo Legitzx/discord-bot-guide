@@ -1,8 +1,11 @@
+# The Code for rendering react markdown.
+
+```js
 import React, { Component } from "react";
 import ReactMarkdown from "react-markdown";
-import termsFrPath from "./DiscordjsNoob.md";
+import termsFrPath from "./Test.md";
 
-class introPage extends Component {
+class Test extends Component {
 	constructor(props) {
 		super(props);
 
@@ -26,4 +29,5 @@ class introPage extends Component {
 	}
 }
 
-export default introPage;
+export default Test;
+```
