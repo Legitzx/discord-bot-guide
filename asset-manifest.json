@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/discordjs-guide/static/css/main.851e7489.chunk.css",
-    "main.js": "/discordjs-guide/static/js/main.79c6ff68.chunk.js",
-    "main.js.map": "/discordjs-guide/static/js/main.79c6ff68.chunk.js.map",
+    "main.css": "/discordjs-guide/static/css/main.744fabc8.chunk.css",
+    "main.js": "/discordjs-guide/static/js/main.bb2d5e8c.chunk.js",
+    "main.js.map": "/discordjs-guide/static/js/main.bb2d5e8c.chunk.js.map",
     "runtime-main.js": "/discordjs-guide/static/js/runtime-main.a74b1d62.js",
     "runtime-main.js.map": "/discordjs-guide/static/js/runtime-main.a74b1d62.js.map",
-    "static/js/2.ca302693.chunk.js": "/discordjs-guide/static/js/2.ca302693.chunk.js",
-    "static/js/2.ca302693.chunk.js.map": "/discordjs-guide/static/js/2.ca302693.chunk.js.map",
+    "static/js/2.0808881c.chunk.js": "/discordjs-guide/static/js/2.0808881c.chunk.js",
+    "static/js/2.0808881c.chunk.js.map": "/discordjs-guide/static/js/2.0808881c.chunk.js.map",
     "index.html": "/discordjs-guide/index.html",
-    "static/css/main.851e7489.chunk.css.map": "/discordjs-guide/static/css/main.851e7489.chunk.css.map",
-    "static/js/2.ca302693.chunk.js.LICENSE.txt": "/discordjs-guide/static/js/2.ca302693.chunk.js.LICENSE.txt",
-    "static/media/DiscordjsNoob.76017666.md": "/discordjs-guide/static/media/DiscordjsNoob.76017666.md",
+    "static/css/main.744fabc8.chunk.css.map": "/discordjs-guide/static/css/main.744fabc8.chunk.css.map",
+    "static/js/2.0808881c.chunk.js.LICENSE.txt": "/discordjs-guide/static/js/2.0808881c.chunk.js.LICENSE.txt",
+    "static/media/GettingStarted.56f18b54.md": "/discordjs-guide/static/media/GettingStarted.56f18b54.md",
+    "static/media/Test.9dfab55e.md": "/discordjs-guide/static/media/Test.9dfab55e.md",
+    "static/media/intropage.9c9c2746.md": "/discordjs-guide/static/media/intropage.9c9c2746.md",
     "static/media/App.css": "/discordjs-guide/static/media/logo.2781e843.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a74b1d62.js",
-    "static/js/2.ca302693.chunk.js",
-    "static/css/main.851e7489.chunk.css",
-    "static/js/main.79c6ff68.chunk.js"
+    "static/js/2.0808881c.chunk.js",
+    "static/css/main.744fabc8.chunk.css",
+    "static/js/main.bb2d5e8c.chunk.js"
   ]
 }
