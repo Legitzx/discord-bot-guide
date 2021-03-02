@@ -17,7 +17,13 @@ function LandingPage() {
 			</div>
 			<div className="home-page-main">
 				{/* Logo in heading */}
-				<p>Landing Page</p>
+				<h1 style={{ margin: 40 }}>New to bot development?</h1>
+				<div className="landing-page-container">
+					<p>
+						Well thats okay, on this website we will walk through how to make
+						your own discord bot!
+					</p>
+				</div>
 			</div>
 		</>
 	);

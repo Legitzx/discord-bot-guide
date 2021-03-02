@@ -1,9 +1,12 @@
+# Markdown temp for react
+
+```js
 import React from "react";
-import mdDocument from "./intropage.md";
+import mdDocument from "./FILE_NAME.md";
 import Markdown from "markdown-to-jsx";
 import { useState, useEffect } from "react";
 
-const IntroPage = () => {
+const FILE_NAME = () => {
 	const [content, setContent] = useState("");
 
 	useEffect(() => {
@@ -23,4 +26,5 @@ const IntroPage = () => {
 	);
 };
 
-export default IntroPage;
+export default FILE_NAME;
+```

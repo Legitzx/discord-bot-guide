@@ -12,6 +12,10 @@ import NotFound404Error from "./pages/NotFound404Error";
 import TestPage from "./misc/TestPage";
 import IntroductionPage from "./pages/componets/introduction/introPage";
 
+//? Small Pages
+
+import GettingStartedPage from "./pages/componets/introduction/GettingStarted";
+
 //? Dep imports
 // If using github pages then you need HashRouter not Brower
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
@@ -30,14 +34,19 @@ function App() {
 						<div>
 							<Switch>
 								{/* Using "/discordjs-guide" as root */}
-								<Route path="/" exact component={LandingPage}></Route>
+								<Route path="/" exact component={LandingPage} />
+								<Route exact path="/test" component={TestPage} />
+								{/* Main Pages */}
 								<Route
 									exact
 									path="/introduction-start"
 									component={IntroductionPage}
-								></Route>
-								<Route exact path="/test" component={TestPage}></Route>
-								<Route exact path="*" component={NotFound404Error}></Route>
+								/>
+								<Route
+									path="/intro=getting-started"
+									component={GettingStartedPage}
+								/>
+								<Route exact path="*" component={NotFound404Error} />
 							</Switch>
 						</div>
 					</div>

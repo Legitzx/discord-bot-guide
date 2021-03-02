@@ -1,29 +1,27 @@
-import React, { Component } from "react";
-import ReactMarkdown from "react-markdown";
-import termsFrPath from "./Test.md";
+import React from "react";
+// import ReactMarkdown from "react-markdown";
+import mdDocument from "./Test.md";
+import Markdown from "markdown-to-jsx";
+import { useState, useEffect } from "react";
 
-class Test extends Component {
-	constructor(props) {
-		super(props);
+const Test = () => {
+	const [content, setContent] = useState("");
 
-		this.state = { terms: null };
-	}
-
-	componentWillMount() {
-		fetch(termsFrPath)
-			.then((response) => response.text())
-			.then((text) => {
-				this.setState({ terms: text });
+	useEffect(() => {
+		fetch(mdDocument)
+			.then((res) => res.text())
+			.then((md) => {
+				setContent(md);
 			});
-	}
+	});
 
-	render() {
-		return (
+	return (
+		<div>
 			<div className="home-page-main">
-				<ReactMarkdown source={this.state.terms} />
+				<Markdown className="markdown" children={content} />
 			</div>
-		);
-	}
-}
+		</div>
+	);
+};
 
 export default Test;

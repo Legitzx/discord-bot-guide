@@ -16,7 +16,7 @@ export const SidebarData = [
 		subNav: [
 			{
 				title: "Getting Started",
-				path: "/",
+				path: "/intro=getting-started",
 				icon: <IoIcons.IoIosPaper />,
 			},
 			{
