@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 import "../stylesheets/App.css";
-import logo from "../stylesheets/img/logo.png";
+import logo from "../stylesheets/img/logo2.png";
 
 function LandingPage() {
 	// var dateString = new Date().toDateString();
@@ -22,6 +22,10 @@ function LandingPage() {
 					<p>
 						Well thats okay, on this website we will walk through how to make
 						your own discord bot!
+					</p>
+					<p>
+						First setps
+						{logo}
 					</p>
 				</div>
 			</div>

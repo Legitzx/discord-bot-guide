@@ -1,6 +1,6 @@
 ![DeepWebDevelopers, Logo](./public/logo.png)
 
-# Offical `DeepWebDeveloper's` guide @discordjs Bot Building
+# Offical `DeepWebDeveloper's` guide for discord Bot Building
 
 - Table of Context
   - [Introduction]()

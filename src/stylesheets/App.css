@@ -193,8 +193,29 @@ p {
 	left: 195px;
 	bottom: 50px;
 	color: rgb(255, 228, 78);
+	text-decoration: none;
+	background: #000000;
+	background: linear-gradient(125deg, #000000 0%, #e3d567 80%);
+	background: -webkit-linear-gradient(125deg, #000000 0%, #e3d567 80%);
+	background: -moz-linear-gradient(125deg, #000000 0%, #e3d567 80%);
 }
 
 .landing-page-container p {
 	color: royalblue;
+	/* Adds color and lots of contrast */
+	filter: contrast(150%);
+	-webkit-filter: contrast(150%);
+	-moz-filter: contrast(150%);
+	-o-filter: contrast(150%);
+	-ms-filter: contrast(150%);
+	cursor: pointer;
+	margin: 16px;
+	box-shadow: 3px 3px 6px 1px #000000;
+	font-size: 23px;
+	color: rgb(231, 231, 231);
+	background: #9e31c4;
+	background: linear-gradient(79deg, #9e31c4 0%, #64b5e3 80%);
+	background: -webkit-linear-gradient(79deg, #9e31c4 0%, #64b5e3 80%);
+	background: -moz-linear-gradient(79deg, #9e31c4 0%, #64b5e3 80%);
+	margin: 16px;
 }

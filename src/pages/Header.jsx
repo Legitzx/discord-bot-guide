@@ -27,7 +27,7 @@ class MainHeader extends Component {
 							onClick={this.handleClickHome}
 							className="landing-page-button"
 						>
-							Discordjs
+							Discord Bot's
 						</Link>
 					</h1>
 					{/* Using "/discordjs-guide" as root */}
