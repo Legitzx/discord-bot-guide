@@ -1,5 +1,5 @@
 module.exports = {
-	title: "Discord Bot Guild",
+	title: "Discord Bot Guide",
 	tagline: "Helping you build discord bots",
 	url: "https://deepwebdevelopers.github.io/discordjs-guide/",
 	baseUrl: "/",
@@ -9,6 +9,7 @@ module.exports = {
 	organizationName: "deepwebdevelopers", // Usually your GitHub org/user name.
 	projectName: "discord-bot-guide", // Usually your repo name.
 	themeConfig: {
+		hideableSidebar: true,
 		navbar: {
 			title: "Discord Bot Guild",
 			logo: {
@@ -23,6 +24,15 @@ module.exports = {
 					position: "left",
 				},
 				{ to: "blog", label: "Blog", position: "left" },
+				{ to: "about", label: "About Us", position: "left" },
+				{
+					to: "team",
+					label: "Team",
+					position: "right",
+					activeBaseRegex: `team`,
+				},
+				// Will add later
+				// { to: "community", label: "Community", position: "left" },
 				{
 					href: "https://github.com/DeepWebDevelopers/discord-bot-guide",
 					label: "GitHub",
@@ -37,11 +47,11 @@ module.exports = {
 					title: "Docs",
 					items: [
 						{
-							label: "Style Guide",
+							label: "Frequently Asked",
 							to: "docs/",
 						},
 						{
-							label: "Second Doc",
+							label: "Support Us",
 							to: "docs/doc2/",
 						},
 					],
@@ -89,6 +99,10 @@ module.exports = {
 					showReadingTime: true,
 					// Please change this to your repo.
 					editUrl: ".",
+					feedOptions: {
+						type: "all",
+						copyright: `Copyright © ${new Date().getFullYear()} DeepWebDevelopers, Inc.`,
+					},
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
