@@ -9,6 +9,4 @@
 
 > Add Documentation
 
-> Add beginner Typescript Documentation
-
-> Add music support.
+> Fix more contributors
