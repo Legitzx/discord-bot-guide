@@ -1,8 +1,7 @@
 ---
-id: doc1
+id: doc-save-test-000
 title: Introduction
 sidebar_label: Before You begin
-slug: /
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).

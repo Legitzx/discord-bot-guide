@@ -1,6 +1,6 @@
 ---
 id: doc-bot-up
-title: Getting your bot up and running
+title: Getting Your Bot Up & Running
 ---
 
 ---

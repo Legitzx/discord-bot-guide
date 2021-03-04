@@ -1,6 +1,6 @@
 ---
 id: doc-bot
-title: Creating you'r bot app
+title: Creating You'r Bot App
 ---
 
 ---

@@ -2,6 +2,7 @@
 id: doc1
 title: Introduction
 sidebar_label: Before You begin
+
 slug: /
 ---
 

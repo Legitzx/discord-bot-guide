@@ -2,11 +2,11 @@ module.exports = {
 	title: "Discord Bot Guide",
 	tagline: "Helping you build discord bots",
 	url: "https://deepwebdevelopers.github.io/discordjs-guide/",
-	baseUrl: "/",
+	baseUrl: "/discord-bot-guide/",
 	onBrokenLinks: "throw",
-	onBrokenMarkdownLinks: "warn",
+	onBrokenMarkdownLinks: "throw",
 	favicon: "img/favicon.ico",
-	organizationName: "deepwebdevelopers", // Usually your GitHub org/user name.
+	organizationName: "DeepWebDevelopers", // Usually your GitHub org/user name.
 	projectName: "discord-bot-guide", // Usually your repo name.
 	themeConfig: {
 		hideableSidebar: true,
@@ -52,7 +52,7 @@ module.exports = {
 						},
 						{
 							label: "Support Us",
-							to: "docs/doc2/",
+							to: "/docs/home/doc2",
 						},
 					],
 				},

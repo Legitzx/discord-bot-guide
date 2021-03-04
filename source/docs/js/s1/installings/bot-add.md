@@ -1,6 +1,6 @@
 ---
 id: doc-bot-add
-title: Adding your bot
+title: Adding Your Bot
 ---
 
 ---
