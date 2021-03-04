@@ -14,7 +14,7 @@ module.exports = {
 			title: "Discord Bot Guild",
 			logo: {
 				alt: "My Site Logo",
-				src: "img/logo.svg",
+				src: "img/favicon.png",
 			},
 			items: [
 				{

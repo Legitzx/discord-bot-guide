@@ -10,3 +10,5 @@
 > Add Documentation
 
 > Fix more contributors
+
+> Add search function

@@ -20,7 +20,7 @@ function Team() {
 					<div className="col col--4 margin-bottom--lg">
 						<div className={clsx("card", styles.showcaseUser)}>
 							<div className="card__image">
-								<img src="img/undraw_docusaurus_mountain.svg" />
+								<img src="img/undraw_Building.svg" />
 							</div>
 							<div className="card__body">
 								<div className="avatar">
@@ -38,7 +38,7 @@ function Team() {
 					<div className="col col--4 margin-bottom--lg">
 						<div className={clsx("card", styles.showcaseUser)}>
 							<div className="card__image">
-								<img src="img/logo.svg" />
+								<img src="img/undraw_geniuses.svg" />
 							</div>
 							<div className="card__body">
 								<div className="avatar">
