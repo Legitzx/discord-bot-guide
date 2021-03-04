@@ -78,7 +78,7 @@ module.exports = {
 						},
 						{
 							label: "GitHub",
-							href: "https://github.com/DeepWebDevelopers/discord-bot-guide",
+							href: "https://github.com/DeepWebDevelopers",
 						},
 					],
 				},

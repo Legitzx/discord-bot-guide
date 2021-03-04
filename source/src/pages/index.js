@@ -35,8 +35,8 @@ const features = [
 		imageUrl: "img/undraw_docusaurus_react.svg",
 		description: (
 			<>
-				Extend or customize your website layout by reusing React. Docusaurus can
-				be extended while reusing the same header and footer.
+				Discord Bot Guide is Powered by the React Docusaurus framework. Very
+				simular to vuepress.
 			</>
 		),
 	},
@@ -81,6 +81,8 @@ function Home() {
 							Get Started
 						</Link>
 					</div>
+					<br></br>
+					<h4>Site is still in alpha. Not everything is complete.</h4>
 				</div>
 			</header>
 			<main>
