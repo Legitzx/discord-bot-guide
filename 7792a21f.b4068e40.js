@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{89:function(e,n,t){"use strict";t.r(n);var i=t(0),o=t.n(i),a=t(112);n.default=function(){return o.a.createElement(a.a,{title:"Hello"},o.a.createElement("div",{style:{display:"flex",justifyContent:"center",alignItems:"center",height:"50vh",fontSize:"20px"}},o.a.createElement("p",null,"More information coming soon!")))}}}]);
