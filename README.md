@@ -1,4 +1,4 @@
-![DeepWebDevelopers, Logo](./public/logo.png)
+![DeepWebDevelopers, Logo](./assets/logo.png)
 
 # Offical `DeepWebDeveloper's` guide for discord Bot Building
 
