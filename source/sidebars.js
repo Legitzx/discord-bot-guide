@@ -32,7 +32,7 @@ module.exports = {
 		],
 		TypeScript: [
 			//? TypeScript docs
-			"ts/s1/doc-ts-byb",
+			"ts/s1/doc-byb-ts",
 			{},
 		],
 	},

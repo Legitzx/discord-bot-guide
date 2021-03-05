@@ -1,5 +1,5 @@
 ---
-id: doc-ts-byb
+id: doc-byb-ts
 title: Before you start...
 ---
 
