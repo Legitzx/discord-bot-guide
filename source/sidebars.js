@@ -27,8 +27,13 @@ module.exports = {
 		],
 		Java: [
 			//? Java docs
-			"java/s1/doc-byb-java",
-			{},
+			"java/doc-prerequisites-java",
+			{
+				"Build Your First Bot": [
+					"java/build_your_first_bot/doc-buildingfirstbot-java",
+					"java/build_your_first_bot/doc-settingupide-java"
+				],
+			},
 		],
 		TypeScript: [
 			//? TypeScript docs
