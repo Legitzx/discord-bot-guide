@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[27],{97:function(e){e.exports=JSON.parse('{"developers":{"allTagsPath":"/discord-bot-guide/blog/tags","slug":"developers","name":"developers","count":1,"permalink":"/discord-bot-guide/blog/tags/developers"}}')}}]);
