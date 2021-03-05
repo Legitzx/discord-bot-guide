@@ -24,5 +24,10 @@ module.exports = {
 				// Installation: [""],
 			},
 		],
+		Java: [
+			//? Java docs
+			"java/s1/doc-byb-java",
+			{},
+		],
 	},
 };
