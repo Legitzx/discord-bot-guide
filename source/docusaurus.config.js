@@ -11,7 +11,7 @@ module.exports = {
 	themeConfig: {
 		hideableSidebar: true,
 		navbar: {
-			title: "Discord Bot Guild",
+			title: "Discord Bot Guide",
 			logo: {
 				alt: "My Site Logo",
 				src: "img/favicon.png",
