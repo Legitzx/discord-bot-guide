@@ -29,5 +29,10 @@ module.exports = {
 			"java/s1/doc-byb-java",
 			{},
 		],
+		TypeScript: [
+			//? TypeScript docs
+			"ts/s1/doc-ts-byb",
+			{},
+		],
 	},
 };
