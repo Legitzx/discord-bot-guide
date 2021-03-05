@@ -6,6 +6,7 @@ module.exports = {
 			"js/s1/doc-byb-js",
 			"js/s1/doc-dj-node",
 			{
+				//? s1
 				Preperations: [
 					"js/s1/installings/doc-bot",
 					"js/s1/installings/doc-bot-add",
@@ -18,7 +19,7 @@ module.exports = {
 			},
 		],
 		Python: [
-			//! s1
+			//? s1
 			"py/s1/doc-py-byb",
 			{
 				// Installation: [""],
