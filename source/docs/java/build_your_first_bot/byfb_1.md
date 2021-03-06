@@ -1,7 +1,7 @@
 ---
 id: doc-buildingfirstbot-java
 title: Discord Development Portal
-sidebar_label: Obtaining a bot token
+sidebar_label: Obtaining a Bot Token
 ---
 
 ---

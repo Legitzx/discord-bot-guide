@@ -1,7 +1,7 @@
 ---
 id: doc-developingthebot-java
 title: Coding the bot
-sidebar_label: Coding the bot
+sidebar_label: Coding the Bot
 ---
 
 ---

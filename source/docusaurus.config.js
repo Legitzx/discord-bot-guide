@@ -11,7 +11,7 @@ module.exports = {
 	themeConfig: {
 		hideableSidebar: true,
 		prism: {
-			additionalLanguages: ['java'],
+			additionalLanguages: ['java', 'groovy'],
 		},
 		navbar: {
 			title: "Discord Bot Guild",

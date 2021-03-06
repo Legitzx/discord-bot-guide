@@ -1,7 +1,7 @@
 ---
 id: doc-settingupide-java
 title: Creating the Project
-sidebar_label: Creating the project
+sidebar_label: Creating the Project
 ---
 
 ---

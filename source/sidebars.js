@@ -32,7 +32,8 @@ module.exports = {
 				"Build Your First Bot": [
 					"java/build_your_first_bot/doc-buildingfirstbot-java",
 					"java/build_your_first_bot/doc-settingupide-java",
-					"java/build_your_first_bot/doc-developingthebot-java"
+					"java/build_your_first_bot/doc-developingthebot-java",
+					"java/build_your_first_bot/doc-buildingjarfile-java"
 				],
 			},
 		],
