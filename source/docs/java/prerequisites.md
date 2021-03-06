@@ -12,3 +12,8 @@ This tutorial will start off with the basics of the Java Discord API (JDA) wrapp
 In this tutorial, we will be using the [IntelliJ IDEA IDE](https://www.jetbrains.com/idea/download/), created by JetBrains (community edition will suffice).
 
 This tutorial assumes you have a basic understanding of Object Oriented Programming (OOP) and the fundamentals of the Java programming language down. You must also have the [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html) 8+ installed.
+
+Resources for learning Java:
+
+- [thenewboston](https://www.youtube.com/watch?v=Hl-zzrqQoSE&list=PLFE2CE09D83EE3E28)
+- [Codecademy](https://www.codecademy.com/learn/learn-java)

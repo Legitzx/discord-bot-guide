@@ -10,6 +10,9 @@ module.exports = {
 	projectName: "discord-bot-guide", // Usually your repo name.
 	themeConfig: {
 		hideableSidebar: true,
+		prism: {
+			additionalLanguages: ['java'],
+		},
 		navbar: {
 			title: "Discord Bot Guild",
 			logo: {
