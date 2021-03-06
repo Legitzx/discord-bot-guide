@@ -12,11 +12,11 @@ Now that we have our dependencies installed, we need to create our main class wh
 
 Navigate to the `java` folder in `src/main`. Then right click on the `java` folder and go to New -> Java Class.
 
-![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_2/intellij_newProject5.png "IntelliJ IDEA")
+![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_3/intellij_newProject5.png "IntelliJ IDEA")
 
 Give your Java Class a name of `Main`. Then press `ENTER`
 
-![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_2/intellij_newProject6.png "IntelliJ IDEA")
+![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_3/intellij_newProject6.png "IntelliJ IDEA")
 
 ## Creating the main method
 
@@ -76,11 +76,11 @@ public class Main {
 
 Now we can finally run our bot! Click the green button left of the class name and click `Run 'Main.main()'`.
 
-![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_2/intellij_newProject7.png "IntelliJ IDEA")
+![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_3/intellij_newProject7.png "IntelliJ IDEA")
 
 After running, you will see something that looks like this in the console.
 
-![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_2/intellij_newProject8.png "IntelliJ IDEA")
+![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_3/intellij_newProject8.png "IntelliJ IDEA")
 
 The first 6 lines show up because we do not have [slf4j](http://www.slf4j.org/) implemented yet. Don't worry though, we can ingnore those messages for now. The last 3 lines inform us that the bot has successfully logged on! But our bot has no functionality as of right now, let's fix that.
 
@@ -159,4 +159,4 @@ public class Main extends ListenerAdapter {
 
 Congratulations! You can now run your bot and test it out.
 
-![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_2/intellij_newProject9.png "IntelliJ IDEA")
+![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_3/intellij_newProject9.png "IntelliJ IDEA")
