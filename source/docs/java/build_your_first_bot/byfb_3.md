@@ -8,9 +8,9 @@ sidebar_label: Coding the Bot
 
 ## Creating the main class
 
-Now that we have our dependencies installed, we need to create our main class which will hold all the code for this tutorial.
+Now that we have our dependencies installed, we need to create the main class which will hold all the code for this tutorial.
 
-Navigate to the `java` folder in `src/main`. Then right click on the `java` folder and go to New -> Java Class.
+Navigate to the `java` folder in `src/main`. Then right click on the `java` folder and go to _`New` -> `Java Class`_.
 
 ![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_3/intellij_newProject5.png "IntelliJ IDEA")
 
@@ -20,7 +20,11 @@ Give your Java Class a name of `Main`. Then press `ENTER`
 
 ## Creating the main method
 
-Now that we have an empty Main class, we can create our main method. To do this, type the following code (if you are on IntelliJ IDEA you can just type `psvm` and then `ENTER` which will automatically generate the main method)
+Now that we have an empty Main class, we can create our main method. To do this, type the following code:
+
+:::tip
+If you are on IntelliJ IDEA you can just type `psvm` and then `ENTER` which will automatically generate the main method.
+:::
 
 ```java {2-4}
 public class Main {
@@ -32,7 +36,7 @@ public class Main {
 
 After creating the main method, we can now create the JDA Object via the JDABuilder class. This will allow us to add the token to our bot and add other options to our bot.
 
-Copy the token from the _Discord Development Portal_ and paste it where it says `INSERT_TOKEN_HERE`.
+Copy the token from the [Discord Development Portal](https://discord.com/developers/applications) and paste it where it says `INSERT_TOKEN_HERE`.
 
 ```java {1,5}
 import net.dv8tion.jda.api.JDABuilder;
@@ -82,7 +86,7 @@ After running, you will see something that looks like this in the console.
 
 ![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_3/intellij_newProject8.png "IntelliJ IDEA")
 
-The first 6 lines show up because we do not have [slf4j](http://www.slf4j.org/) implemented yet. Don't worry though, we can ingnore those messages for now. The last 3 lines inform us that the bot has successfully logged on! But our bot has no functionality as of right now, let's fix that.
+The first 6 lines show up because we do not have [slf4j](http://www.slf4j.org/) implemented yet. Don't worry though, we can ignore those messages for now. The last 3 lines inform us that the bot has successfully logged on! But our bot has no functionality as of right now, let's fix that.
 
 ## Adding Functionality
 
@@ -110,9 +114,11 @@ public class Main extends ListenerAdapter {
 }
 ```
 
-Essentially, whenever a user sends a message in the discord server, the `onGuildMessageReceived` method will be called. You will be able to access information about that message using the event property.
+Essentially, whenever a user sends a message in the discord server, the `onGuildMessageReceived` method will be called. You will be able to access information about that message using the _event_ property.
 
-Shortcut: You can automatically generate this method by simply typing in `onGuildMessageReceived` and pressing `ENTER`.
+:::tip
+You can automatically generate this method by simply typing in `onGuildMessageReceived` and pressing `ENTER`
+:::
 
 Now, we can add some logic within our `onGuildMessageReceived` method that will capture the senders message and check if it equals `!ping`. If it does, it will reply with `pong!`.
 
@@ -129,7 +135,7 @@ public void onGuildMessageReceived(@NotNull GuildMessageReceivedEvent event) {
 
 To complete this bot, we must now create a new instance of our main class in the JDABuilder so it knows where to send events.
 
-Full Code:
+**Full Code:**
 
 ```java {11}
 import net.dv8tion.jda.api.JDABuilder;
@@ -157,6 +163,6 @@ public class Main extends ListenerAdapter {
 }
 ```
 
-Congratulations! You can now run your bot and test it out.
+**Congratulations! You can now run your bot and test it out.**
 
 ![IntelliJ IDEA](../../../static/img/java-docs/build_your_first_bot/byfb_3/intellij_newProject9.png "IntelliJ IDEA")

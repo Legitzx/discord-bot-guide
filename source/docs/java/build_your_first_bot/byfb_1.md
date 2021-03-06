@@ -32,9 +32,9 @@ We are now able to copy our bots token and start coding!
 
 ## Getting an invite link for our bot
 
-Now that we have created our bot on the Discord Develoment Portal, we can now get an invite link for our bot. This will allow us to invite our bot to Discord Servers.
+Now that we have created our bot on the [Discord Develoment Portal](https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications), we can get an invite link for our bot. This will allow us to invite our bot to Discord Servers.
 
-Navigate to the `OAuth2` tab on Discord Development Portal. This page allows us to setup permissions for our bot. To make things simple, we will just give our bot the `Administrator` permission.
+Navigate to the `OAuth2` tab on the Discord Development Portal. This page allows us to setup permissions for our bot. To make things simple, we will just give our bot the `Administrator` permission.
 
 ![Discord Development Portal](../../../static/img/java-docs/build_your_first_bot/byfb_1/devportal_oauth2.png "Discord Development Portal")
 
